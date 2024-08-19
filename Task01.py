@@ -22,7 +22,7 @@ b=int(input("Enter the second number:"))
 if a>b:
     print(f"{a} greater than {b}")
 elif a>b:
-    print(f"{b} greater than is {a}")
+    print(f"{b} greater than {a}")
 
 #04-A shop will give a discount of 10% of the cost of the purchased quantity is more than 1000
 #   Ask the user for the quantity
