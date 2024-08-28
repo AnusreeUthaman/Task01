@@ -33,9 +33,9 @@ mrp=100
 quantity=int(input("Enter the quantity: "))
 total=mrp*quantity
 if total>1000:
-    print("Discounted Total price: {total-(total*(10/100))}")
+    print(f"Discounted Total price: {total-(total*(10/100))}")
 else:
-    print("Total price: {total} ")
+    print(f"Total price: {total} ")
 
 #05-A school has the following rules for the grading system:
 Below 25-F
